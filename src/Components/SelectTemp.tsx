@@ -6,7 +6,7 @@ import {
   getUserTemp,
   ThermoSettings,
   updateTemp,
-} from './service/firebase'
+} from '../service/firebase'
 import Header from './Header'
 interface SelectTempProps {
   user: User

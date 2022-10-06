@@ -2,7 +2,7 @@ import { User } from 'firebase/auth'
 import React, { useState } from 'react'
 import { FcGoogle } from 'react-icons/fc'
 import { useForm, SubmitHandler } from 'react-hook-form'
-import { signInWithGoogle } from './service/firebase'
+import { signInWithGoogle } from '../service/firebase'
 import SelectTemp from './SelectTemp'
 import Header from './Header'
 type FormValues = {
